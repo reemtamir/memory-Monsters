@@ -62,6 +62,10 @@ h1 {
   right: 3rem;
   top: 11.5rem;
 }
+.deal-cards {
+  display: flex;
+  justify-content: center;
+}
 
 .card {
   background-color: #e4f9f5;
