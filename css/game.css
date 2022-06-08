@@ -1,0 +1,129 @@
+body {
+  background-color: #e4f9f5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-weight: 900;
+  font-size: 5rem;
+  margin-top: 3rem;
+}
+
+#stop-watch {
+  text-align: center;
+  font-size: 70px;
+  position: relative;
+  animation-name: content;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes content {
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 70px;
+  }
+}
+.btn-secondary {
+  text-align: center;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+.user-name {
+  color: #66bfbf;
+  font-size: 2rem;
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+}
+.time {
+  position: absolute;
+  left: 2rem;
+  top: 10rem;
+  font-size: 1.5rem;
+}
+
+.header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+  border-bottom: 4px solid #66bfbf;
+  color: #66bfbf;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.header img {
+  position: absolute;
+  right: 3rem;
+  top: 11.5rem;
+}
+
+.card {
+  background-color: #e4f9f5;
+  height: 165px;
+  width: 165px;
+  float: left;
+  padding: 5px;
+  border: none;
+}
+
+.card img {
+  position: absolute;
+}
+
+.flipped .back {
+  display: none;
+}
+#resetBtn {
+  display: hidden;
+}
+.btn-outline-success {
+  position: absolute;
+  right: 3rem;
+}
+
+.giphy-embed {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  left: 3%;
+  top: 12.5rem;
+  transform: rotate(15deg);
+}
+.giphy-embed2 {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  right: 15%;
+  top: 5rem;
+  visibility: hidden;
+}
+.time-when-win {
+  color: #fff;
+  font-size: 1.5rem;
+  display: inline-block;
+  border-radius: 5px;
+  animation: blinkingBackground 2s infinite;
+}
+@keyframes blinkingBackground {
+  0% {
+    color: #10c018;
+  }
+  25% {
+    color: #1056c0;
+  }
+  50% {
+    color: #ef0a1a;
+  }
+  75% {
+    color: #254878;
+  }
+  100% {
+    color: #04a1d5;
+  }
+}
